@@ -1,0 +1,56 @@
+.next {
+  min-width: 500px;
+  min-height: 100px;
+  margin-top: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.start {
+  min-width: 15px;
+  margin-top: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.start:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.background {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAtqpAVJH7-vsIm968_eOT3eQdyyXnca23oA&usqp=CAU)
+    no-repeat;
+  background-size: cover;
+  width: auto;
+  margin-top: 15%;
+  padding: 20px;
+}
+
+button,
+h1 {
+  font-family: "Itim", cursive;
+  font-size: 30px;
+}
