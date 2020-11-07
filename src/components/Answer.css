@@ -1,19 +1,19 @@
-.answer{
-    min-width: 500px;
-    min-height:  100px;
-    margin-bottom: 10px;
-    color: black;
+.answer {
+  min-width: 400px;
+  min-height: 100px;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .correctAnswer {
-    background-color: green;
+  background-color: green;
 }
 .wrongAnswer {
-    background-color: red;
+  background-color: red;
 }
